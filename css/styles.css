@@ -340,6 +340,27 @@ address {
 
 /*portfolio main*/
 
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.filters:not(:last-child) {
+    margin-left: 8px;
+}
+
+.filter {
+    padding: 6px 22px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .filter {
     font-family: 'Roboto';
     font-style: normal;
@@ -352,6 +373,8 @@ address {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+
+    
 }
 
 .activ {
@@ -378,12 +401,40 @@ address {
     color: #FFFFFF;   
 }
 
+.portfolio-list {
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 95px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    margin-right: 24px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.portfolio-item:nth-child(n+7) {
+    margin-bottom: 0px;
+}
+
 .title-element {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-left: 25px;
 }
 
 .element-filter {
@@ -393,4 +444,7 @@ address {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 25px;
 }
