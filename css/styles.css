@@ -102,6 +102,8 @@ li {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
@@ -115,17 +117,14 @@ li {
 
 /*Title*/
 
-.main-title {   
-    background: #2F303A;  
+.hero {   
+    background: #2F303A;
+    padding: 200px 0; 
 }
 
-.main-title > .container {
-    display: flex;
-    flex-flow: column;
+.hero > .container {
+    padding: 0 auto;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 600px;    
 }
 
 .hero-title {
@@ -138,8 +137,7 @@ li {
     color: #FFFFFF;
     width: 700px;
     height: 120px;
-    margin-top: 0px;
-    padding: auto;
+    margin: 0 auto;
 }
 
 .but-title {
@@ -175,6 +173,8 @@ li {
  
     max-width: 1200px;
     padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .features-item {
@@ -269,6 +269,11 @@ li {
     margin-right: 30px;
 }
 
+.team-item > .wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .name {
     font-style: normal;
     font-weight: 500;
@@ -277,7 +282,7 @@ li {
     text-align: center;
     letter-spacing: 0.03em;
 
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
@@ -290,13 +295,14 @@ li {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 /*footer*/
 
 footer {
     background: #2F303A;
+    padding: 60px 0;
 }
 
 footer > .container {
@@ -306,14 +312,12 @@ footer > .container {
 
 footer .logo {
     color: #ffffff;
-    margin-top: 30px;
-    max-width: 145px;
 }
 
 .footer-contacts {
-    margin-top: 20px;
-    margin-bottom: 60px;
     padding-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 address {
@@ -343,7 +347,7 @@ address {
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     margin-left: 0px;
     padding-left: 0px;
 }
@@ -415,6 +419,13 @@ address {
     margin-bottom: 0px;
 }
 
+.portfolio-item > .wrapper {
+    padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+
 .portfolio-item > img {
     display: block;
 }
@@ -427,11 +438,7 @@ address {
     letter-spacing: 0.06em;
 
     margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 20px;
-    padding-left: 25px;
-    border-right: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
+    margin-bottom: 4px;
 }
 
 .element-filter {
@@ -444,10 +451,4 @@ address {
 
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
 }
