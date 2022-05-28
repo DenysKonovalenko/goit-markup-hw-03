@@ -10,7 +10,7 @@ body {
 }
 
 * {
-    /* outline: 2px solid tomato */
+    outline: 2px solid tomato
 }
 
 li {
@@ -19,6 +19,14 @@ li {
 
 .container {
     width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /*header-styles*/
 
@@ -28,9 +36,6 @@ li {
 .head > .container {
     align-items: center;
     display: flex;
-
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .logo {
@@ -110,10 +115,6 @@ li {
 
 /*Title*/
 
-main {
-
-}
-
 .main-title {   
     background: #2F303A;  
 }
@@ -173,10 +174,7 @@ main {
     justify-content: space-between;
  
     max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 95px;
-    margin-bottom: 95px;
+    padding-left: 0px;
 }
 
 .features-item {
@@ -213,13 +211,13 @@ main {
 
 /*main work*/
 
-.features-inner {
-    margin-bottom: 95px;
-}
-
 .features-inner-title {   
     margin-top: 0px;
     margin-bottom: 50px;
+}
+
+.features-inner {
+    padding-top: 0px;
 }
 
 .features-inner-title,
@@ -234,10 +232,9 @@ main {
 
 .features-inner-list {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .features-inner-item:not(:last-child) {
@@ -253,16 +250,13 @@ main {
 .title-team {
     margin-top: 0px;
     margin-bottom: 50px;
-    padding-top: 95px;
 }
 
 .team-list {
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-right: 15px;
-    padding-bottom: 95px;
-    padding-left: 15px;
+    padding-left: 0px;
 }
 
 .team-item {
@@ -313,14 +307,12 @@ footer > .container {
 footer .logo {
     color: #ffffff;
     margin-top: 30px;
-    margin-left: 15px;
     max-width: 145px;
 }
 
 .footer-contacts {
     margin-top: 20px;
     margin-bottom: 60px;
-    margin-left: 15px;
     padding-left: 0px;
 }
 
@@ -350,14 +342,10 @@ address {
 .filters {
     display: flex;
     justify-content: center;
-    margin-top: 95px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-left: 0px;
-}
-
-.filters:not(:last-child) {
-    margin-left: 8px;
 }
 
 .filter {
@@ -409,14 +397,12 @@ address {
 }
 
 .portfolio-list {
-    margin-top: 35px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 95px;
-    padding-right: 15px;
-    padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
+
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .portfolio-item {
