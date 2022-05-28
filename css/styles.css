@@ -343,17 +343,9 @@ address {
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 35px;
     margin-left: 0px;
     padding-left: 0px;
-}
-
-.filter {
-    padding: 6px 22px;
-}
-
-.filter-item:not(:last-child) {
-    margin-right: 8px;
 }
 
 .filter {
@@ -368,8 +360,12 @@ address {
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-
     
+    padding: 6px 22px;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
 }
 
 .activ {
@@ -400,7 +396,7 @@ address {
     display: flex;
     flex-wrap: wrap;
 
-    margin-top: 35px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
 }
